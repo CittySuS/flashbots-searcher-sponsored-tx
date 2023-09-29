@@ -19,11 +19,12 @@ Environment Variables
 =====================
 - Rename `.env.example` to `.env`
 - Open `.env` file in a code editor. In the `.env` file, change the following:
-- ETHEREUM_RPC_URL - Ethereum RPC endpoint. Can not be the same as FLASHBOTS_RPC_URL
-- PRIVATE_KEY_EXECUTOR - Private key for the compromised Ethereum EOA that owns assets that needs to be transferred
-- PRIVATE_KEY_SPONSOR - Private key for an account that has ETH that will be used to fund the miner for the "ZERO_GAS" transactions 
-- RECIPIENT - Ethereum EOA to receive assets from ZERO_GAS account
-- FLASHBOTS_RELAY_SIGNING_KEY - Optional param, private key used to sign messages to Flashbots to establish reputation of profitability
+- `ETHEREUM_RPC_URL` - Ethereum RPC endpoint. Can not be the same as `FLASHBOTS_RPC_URL`
+- `PRIVATE_KEY_EXECUTOR` - Private key for the compromised Ethereum EOA that owns assets that needs to be transferred
+- `PRIVATE_KEY_SPONSOR` - Private key for an account that has ETH that will be used to fund the miner for the "ZERO_GAS" transactions 
+- `RECIPIENT` - Ethereum EOA to receive assets from ZERO_GAS account
+- `FLASHBOTS_RELAY_SIGNING_KEY` - Optional param, private key used to sign messages to Flashbots to establish reputation of profitability
+- After making changes, save file
 - Copy `.env` file to `build` folder
 
 Setting Miner Reward
