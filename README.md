@@ -49,5 +49,5 @@ Usage
 ```
 $ npm install
 copy `.env` file to `build` folder
-$ npm build flashbot
+$ npm run flashbot
 ```
